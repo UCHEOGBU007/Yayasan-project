@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "montserrat",sans-serif;
+}
+
+header{
+	background-color: #00747A;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	padding: 20px;
+}
+
+.identity{
+	display: flex;
+	padding: 0 10%;
+}
+
+#company-frontal{
+	color: white;
+	margin-top: 20px;
+	padding: 0 10px;
+
+}
+
+
+#companyImage{
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row; /* Arrange items in a horizontal line */
+    align-items: center; /* Align items vertically in the center */
+    list-style-type: none; /* Remove default list styling */
+    gap: 60px;
+}
+
+
+
+li a {
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bolder;
+	font-size: 1.1rem;
+}
+
+
+ul button{
+	background-color: #EDE8CA;
+	color: #00747A;
+	padding: 10px 40px 10px 40px;
+	border-radius: 20px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+ul button:hover{
+	background-color: #00747A;
+	color: #EDE8CA ;
+	cursor: pointer;
+}
+
+
+select, option{
+	border: none;
+	outline: none;
+	color: whitesmoke;
+	background-color: #00747A ;
+	font-weight: bolder;
+	font-size: 1.1rem;
+}
+
+
+main{
+	background-image: url(turts.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+article{
+	padding: 130px 0 0 60px;
+	color: whitesmoke;
+
+}
+
+article h3{
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 1.6rem ;
+	word-spacing: 5px;
+}
+
+article p{
+	padding: 30px 40px 0 0;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	font-weight: 500;
+	font-family: cursive;
+	word-break: break-word;
+
+}
+
+main article a{
+	margin-top: 50px;
+	text-decoration: none;
+	background-color: #EDE8CA;
+	color: #00747A;
+	padding: 10px 20px 10px 20px;
+	font-weight: bold;
+	border-radius: 10px;
+
+}
+main article a:hover{
+	background-color: whitesmoke;
+}
+
+
+footer{
+	background-color: black;
+	height: 80px;
+}
+
+.footer .fa-solid {
+	color: white;
+	float: right;
+	margin-left: 30%;
+}
+
+.footer p{
+	color: whitesmoke;
+	text-align: center;
+	justify-items: center;
+	padding-top: 30px;
+
+}
+
